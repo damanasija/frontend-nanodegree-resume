@@ -129,7 +129,7 @@ a {
 
 /* TODO: Replace with image later */
 #header {
-  background-color: #484848;
+  background-color: #494849;
 }
 
 .flex-box {
@@ -160,7 +160,9 @@ ul {
   float: left;
   padding: 10px;
   width: 200px;
+  height: 200px;
   display: none;
+  border-radius: 50%;
 }
 
 img {
@@ -173,6 +175,11 @@ span {
 
 #lets-connect {
   text-align: center;
+}
+
+/* This is class for handling the project images */
+.image {
+  width: 50%;
 }
 
 /* Media queries to handle various device widths */
@@ -198,6 +205,9 @@ span {
   }
   .welcome-message {
     display: none;
+  }
+  .image {
+    width: 100%;
   }
 }
 
